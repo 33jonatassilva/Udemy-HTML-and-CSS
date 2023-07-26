@@ -49,7 +49,12 @@ p {
 .rodape {
     text-align: center;
     font-weight: bold;
-    background-color: #D4D3BD;
     padding: 20px;
     margin-bottom: 0px;
+}
+
+img.corpo {
+    background-color: #D4D3BD;
+    padding: 10px;
+    margin-left: 10px;
 }
