@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+* {
+    background-color: #409ABF;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#play {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#imagens-apresentacao {
+    padding-bottom: 150px;
+}
+
+.imagens-apr {
+    width: 30%;
+    margin: 20px 20px 0px 20px;
+}
+
+#footer-logo-pipa {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#footer-logo-pipa img {
+    background-color: white;
+    padding: 30px 0px 30px 0px;
+}
+
+

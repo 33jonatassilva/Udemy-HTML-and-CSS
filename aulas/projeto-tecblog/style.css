@@ -13,7 +13,6 @@ body {
 }
 
 
-
 h1#logo {
    
     text-align: center;
@@ -22,35 +21,128 @@ h1#logo {
     padding: 20px;
 }
 
+
+h1#titulo-da-postagem {
+    color: #f7b600;
+}
+
+
+h3.titulo-noticias {
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+
+
 span {
     color: white;
 }
 
 nav {
-   
     background-color: #FFC300;
     padding-bottom: 20px;
 }
 
-ul {
+nav ul {
     text-align: center;
     margin-top: 0px;
 }
 
-li {
+
+nav ul li {
     list-style-type: none;
     display: inline;
+    padding: 10px;
 }
 
-a {
+
+a.link-menu {
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 10px;
 }
 
-a:hover {
-    background-color: #e6e6e666;
-    color: #000;
 
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+#area-postagens {
+    width: 660px;
+    float: left;
+    background-color: #ffff;
+}
+
+#area-postagens2 {
+    width: 660px;
+    float: left;
+    background-color: #ffff;
+}
+
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.link-lateral {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.link-lateral > a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-lateral > a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagens2 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+.noticia {
+    margin-bottom: 10px;
+    background-color: #ffff;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+a.leia-mais {
+    text-decoration: none;
+}
+
+a.leia-mais:hover {
+    text-decoration: underline;
+}
+
+
+.pnoticias {
+    margin-bottom: 10px;
 }
