@@ -6,10 +6,21 @@
     margin: 0;
 }
 
+main {
+    margin-top: -70px;
+}
+
+section {
+    max-width: 600px;
+    margin: auto;
+}
+
 p {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 20px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     color: white;
 }
 
@@ -17,26 +28,65 @@ p {
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;
+    background-color: rgba(64, 155, 191, 0);
 }
 
-#imagens-apresentacao {
-    padding-bottom: 150px;
+
+#play {
+    transform: translate(0px, -90%);
 }
+
+#play:hover {
+    transform: translate(0px, -95%);
+    transition: 0.25s;
+}
+
+
 
 .imagens-apr {
     width: 30%;
     margin: 20px 20px 0px 20px;
 }
 
-#footer-logo-pipa {
+footer {
     background-color: white;
+    width: 100vw;
     text-align: center;
     margin-bottom: 0px;
 }
 
-#footer-logo-pipa img {
+footer img {
     background-color: white;
     padding: 30px 0px 30px 0px;
+    margin-bottom: 0px;
 }
 
 
+#imagens-apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+#imagens-apresentacao img {
+    flex: 1;
+    max-width: 100%; /* Ou ajuste a porcentagem adequada para o espaçamento desejado */
+    margin: 15px;
+}
+
+#imagens-apresentacao img:hover {
+    transform: translate(0px, -5px);
+    transition: 0.25s;
+}
+
+@media (max-width: 768px) {
+    #imagens-apresentacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imagens-apresentacao img {
+        width: 400px;
+    }
+
+}
