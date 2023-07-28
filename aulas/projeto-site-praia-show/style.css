@@ -70,7 +70,7 @@ footer img {
 
 #imagens-apresentacao img {
     flex: 1;
-    max-width: 100%; /* Ou ajuste a porcentagem adequada para o espaçamento desejado */
+    max-width: 50%; /* Ou ajuste a porcentagem adequada para o espaçamento desejado */
     margin: 15px;
 }
 
@@ -82,6 +82,7 @@ footer img {
 @media (max-width: 768px) {
     #imagens-apresentacao {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
